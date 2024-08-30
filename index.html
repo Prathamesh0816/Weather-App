@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather API</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <script src="./script.js"></script>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section class="search-container">
+            <h2>Search for a city</h2>
+            <div class="input-container">
+                <input type="text" id="input-city" placeholder="Enter city name" />
+                <button id="submit-btn">Search</button>
+            </div>
+        </section>
+        <section class="weather-info-container">
+            <h2>Weather Information</h2>
+            <div id="weather-info">
+                <p> <span id="city-name"></span></p>
+                <p><span id="temperature"></span></p>
+                <p><span id="conditions"></span></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
-
 </html>
 <!-- key=YFPJKFT4UGEYSR43AN4B6ZK9V
  https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/pune?unitGroup=metric&key=YFPJKFT4UGEYSR43AN4B6ZK9V&contentType=json -->

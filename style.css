@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    background-image: url("./weather.jpg");
+}
+
+header {
+    background-color: #2196F3; /* changed to a blue color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-container {
+    padding-bottom: 4vh;
+    background-color: #fff; /* changed to white */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container h2 {
+    margin-top: 0;
+    color: #666; /* changed to a darker gray */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-city {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f7f7f7; /* added a light gray background */
+}
+
+#submit-btn {
+    padding-top: 2vh;
+    background-color: #FFC107; /* changed to a bright orange color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submit-btn:hover {
+    background-color: #FF9800; /* changed to a darker orange color */
+}
+
+.weather-info-container {
+    background-color: #fff; /* changed to white */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.weather-info-container h2 {
+    margin-top: 0;
+    color: #666; /* changed to a darker gray */
+}
+
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weather-info p {
+    margin-bottom: 10px;
+}
+
+#city-name, #temperature, #conditions {
+    font-weight: bold;
+    font-size: 18px;
+    color: #337AB7; /* changed to a blue color */
+}
